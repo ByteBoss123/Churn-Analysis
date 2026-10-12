@@ -1,0 +1,38 @@
+{
+  "rows_raw": 7043,
+  "rows_blank_total_charges_tenure0": 11,
+  "rows_used": 7032,
+  "churn_rate": 0.2658,
+  "churn_by_contract": {
+    "Month-to-month": 0.427,
+    "One year": 0.113,
+    "Two year": 0.028
+  },
+  "churn_by_tenure_months": {
+    "0-12": 0.477,
+    "13-24": 0.287,
+    "25-48": 0.204,
+    "49-72": 0.095
+  },
+  "cv5_roc_auc": {
+    "logistic": [
+      0.8468,
+      0.01
+    ],
+    "gradient_boosting": [
+      0.8404,
+      0.0114
+    ]
+  },
+  "selected_model": "logistic",
+  "threshold_from_validation": 0.4,
+  "test": {
+    "n": 1407,
+    "roc_auc": 0.8361,
+    "pr_auc": 0.623,
+    "precision_at_threshold": 0.5779,
+    "recall_at_threshold": 0.6845,
+    "top20pct_share_of_churners_caught": 0.4973,
+    "top20pct_churn_rate": 0.6619
+  }
+}
